@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>mpu_6050_driver</name>
+  <name>mpu6050_driver_py</name>
   <version>0.0.0</version>
   <description>i2c driver for MPU 6050 IMU</description>
 

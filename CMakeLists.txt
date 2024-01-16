@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mpu_6050_driver)
+project(mpu6050_driver_py)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -86,19 +86,19 @@ catkin_package()
 # include_directories(include)
 
 ## Declare a cpp library
-# add_library(mpu_6050_driver
-#   src/${PROJECT_NAME}/mpu_6050_driver.cpp
+# add_library(mpu6050_driver_py
+#   src/${PROJECT_NAME}/mpu6050_driver_py.cpp
 # )
 
 ## Declare a cpp executable
-# add_executable(mpu_6050_driver_node src/mpu_6050_driver_node.cpp)
+# add_executable(mpu6050_driver_py_node src/mpu6050_driver_py_node.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
-# add_dependencies(mpu_6050_driver_node mpu_6050_driver_generate_messages_cpp)
+# add_dependencies(mpu6050_driver_py_node mpu6050_driver_py_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(mpu_6050_driver_node
+# target_link_libraries(mpu6050_driver_py_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -117,7 +117,7 @@ catkin_package()
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS mpu_6050_driver mpu_6050_driver_node
+# install(TARGETS mpu6050_driver_py mpu6050_driver_py_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -142,7 +142,7 @@ catkin_package()
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_mpu_6050_driver.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_mpu6050_driver_py.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

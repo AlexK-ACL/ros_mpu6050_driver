@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/home/alex/Projects/dev_ws/src/ros_mpu6050_driver/src/**"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "/home/alex/Projects/dev_ws/src/ros_mpu6050_driver/src/**"
+    ]
+}

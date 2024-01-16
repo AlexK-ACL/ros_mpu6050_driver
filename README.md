@@ -1,2 +1,3 @@
-# mpu_6050_driver
-ROS driver for the MPU-6050 IMU
+# mpu6050_driver_py
+
+ROS package implementing a driver in Python for the MPU6050 IMU
